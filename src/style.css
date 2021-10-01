@@ -4,7 +4,6 @@
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Open Sans", sans-serif;
 }
 
 .bug-img {
@@ -13,3 +12,15 @@
   margin-top: 10%;
   margin-bottom: 10%;
 }
+
+#about {
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-family: ;
+}
+
+/*
+font-family: "Open Sans", sans-serif;
+*/

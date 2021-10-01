@@ -7,14 +7,15 @@
     <title>jany santana / web dev</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
-    />
+
     <link rel="stylesheet" href="src/style.css" />
   </head>
 
@@ -23,16 +24,32 @@
       <div class="portfolio-wrapper">
         <div class="about-me">
           <div id="ex1" class="modal">
-            <p>Thanks for clicking. That felt good.</p>
-            <a href="#" rel="modal:close">Close</a>
+            <img src="media/bug-hike.jpg" />
+            <a href="" rel="modal:close">Close</a>
           </div>
-          <h1>Hi, I'm Jany.</h1>
-          <h2>I'm a Cuban-American web developer based in Orlando, Florida.</h2>
-          <br />
+          <div class="row" id="about">
+            <div class="col-5">
+              <div class="float-left">
+                <img
+                  src="media/face.png"
+                  id="face"
+                  width="180px"
+                  height="180px"
+                />
+              </div>
+            </div>
+            <div class="col-7" id="intro">
+              <h1>Hi, I'm Jany.</h1>
+              <h3>
+                I'm a Cuban-American web developer based in Orlando, Florida.
+              </h3>
+            </div>
+          </div>
+
           <h4>
             When I'm not writing code, I'm most likely on an adventure somewhere
             with my dog,
-            <span id="bug"><a href="bug.html" rel="modal:open">Bug.</a></span>
+            <a href="ex1" rel="modal:open">Bug.</a>
           </h4>
         </div>
 
@@ -40,13 +57,14 @@
         <a href="#contact">Let's work together</a><br />
         <a href="#connect">Let's connect</a>
 
-        <div class="" <div id="projects">Carousel</div>
+        <div id="projects">Carousel</div>
         <div id="contact">Contact form</div>
         <div id="connect">Social links</div>
       </div>
     </div>
-    <script src="src/app.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="src/app.js"></script>
   </body>
 </html>
