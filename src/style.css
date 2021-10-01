@@ -4,6 +4,7 @@
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Open Sans", sans-serif;
 }
 
 .bug-img {
@@ -18,7 +19,12 @@
 }
 
 h1 {
-  font-family: ;
+  font-weight: 600;
+  font-style: italic;
+}
+
+h3 {
+  line-height: 1.05;
 }
 
 /*
