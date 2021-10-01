@@ -27,6 +27,16 @@ h3 {
   line-height: 1.05;
 }
 
-/*
-font-family: "Open Sans", sans-serif;
-*/
+#modal-link {
+  overflow: visible;
+  width: auto;
+}
+
+#modal-link.link {
+  color: blue;
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
