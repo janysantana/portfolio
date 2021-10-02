@@ -28,8 +28,12 @@ h1 {
   margin-bottom: 10px;
 }
 
+#face-icon {
+  padding-left: 50px;
+}
+
 #intro {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 h3 {
