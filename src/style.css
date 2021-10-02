@@ -72,6 +72,10 @@ button {
   width: auto;
 }
 
+#btn {
+  font-weight: 900;
+}
+
 .link {
   font-weight: bold;
   text-decoration: underline;
@@ -84,6 +88,7 @@ button {
 
 .bug {
   font-size: 18px;
+  text-align: center;
 }
 
 #new-container {
