@@ -1,6 +1,6 @@
-.portfolio-wrapper,
+#wrapper,
 .container-sm {
-  max-width: 500px;
+  max-width: 350px;
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
