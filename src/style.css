@@ -28,6 +28,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+#intro {
+  margin-left: 40px;
+}
+
 h3 {
   line-height: 1;
   font-size: 1.5rem;
