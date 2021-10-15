@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 36px;
   letter-spacing: 0.1em;
 }
