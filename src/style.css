@@ -13,7 +13,7 @@ body {
 }
 
 .portfolio-wrapper {
-  margin: 100px;
+  margin: 100px 0 0 0;
 }
 
 .navbar-brand {
@@ -21,12 +21,22 @@ body {
 }
 
 .heading {
-  padding-top: 25px;
+  padding-top: 40px;
 }
 
 h1 {
   color: var(--primary-color);
   font-size: 36px;
+  letter-spacing: 0.1em;
+  padding: 25px 0 25px 0;
+}
+
+h2 {
+  padding-top: 25px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: var(--primary-color);
   letter-spacing: 0.1em;
 }
 
@@ -36,11 +46,24 @@ h1 {
   font-family: "Roboto Slab", serif;
 }
 
+.web-dev {
+  font-family: "Open Sans", sans-serif;
+}
+
 .icon {
   display: flex;
   margin: auto;
   max-width: 200px;
+  padding-top: 25px;
 }
 
-#face {
+.about {
+  display: flex;
+  margin: auto;
+  padding-top: 25px;
+  max-width: 400px;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
 }
