@@ -16,8 +16,8 @@ body {
   margin: 100px;
 }
 
-.navbar {
-  font-family: 'Roboto Slab', serif !important;
+.navbar-brand {
+  font-family: "Roboto Slab", serif !important;
 }
 
 .heading {
@@ -33,7 +33,7 @@ h1 {
 .name {
   font-weight: lighter;
   color: var(--primary-color);
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .icon {
