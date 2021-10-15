@@ -75,11 +75,11 @@ h2 {
 }
 
 .footer {
-height: 40px;
-margin-top: 50px;
-padding-top: 10px;
-display: flex;
-justify-content: center;
+  height: 30px;
+  margin-top: 70px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .social-icon {
