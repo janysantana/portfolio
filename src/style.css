@@ -20,10 +20,6 @@ body {
   font-family: "Roboto Slab", serif !important;
 }
 
-.heading {
-  padding-top: 20px;
-}
-
 h1 {
   color: var(--primary-color);
   font-size: 36px;
