@@ -90,3 +90,9 @@ h2 {
 .social-icon:hover {
   color: #ecf0ea;
 }
+
+.bug-pic {
+  max-width: 350px;
+  display: flex;
+  margin: auto;
+}

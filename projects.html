@@ -3,59 +3,125 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>jany santana / web dev</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=.8" />
+    <title>jany santana | projects</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="src/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
     />
   </head>
 
-  <div class="container-sm" id="wrapper">
-    <div class="portfolio-wrapper">
-      <div class="navigation">
-        <a href="index.html">Back to main</a>
-      </div>
-      <h1 class="text-center" id="projects-header">My Projects</h1>
-      <div class="projects">
-        <img
-          id="img-1"
-          class="center"
-          src="media/weather-app-screenshot.png"
-          width="100%"
-        />
-        <p class="text-center" id="projects-title">
-          <a
-            href="https://github.com/janysantana/weather-project"
-            id="project-link"
-            >Interactive Weather App</a
+  <body>
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top"
+        style="background-color: #ecf0ea"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">js |</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-        </p>
-        <p class="text-center" id="projects-desc">
-          An interactive weather app using OpenWeather API
-        </p>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link" href="index.html">about</a>
+              <a class="nav-link active" aria-current="page" href="projects.html">projects</a>
+              <a class="nav-link" href="playlist.html">playlist</a>
+              <a class="nav-link" href="contact.html">contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="portfolio-wrapper">
+        <div class="heading">
+          <h1 class="text-center">
+            <span class="name">jany santana</span><br />
+            <span class="subheading">web dev</span>
+          </h1>
+          <div class="icon">
+            <img
+              src="media/face.png"
+              class="img-fluid rounded-circle"
+              id="face"
+            />
+          </div>
+        </div>
+
+        <div class="about">
+          <h2 class="text-center">
+            i'm a cuban-american web developer based in orlando, florida. when
+            i'm not writing code, i'm most likely on an adventure with my dog,
+            <span
+              ><i><a href="#" class="bug-link">bug</a></i
+              >.</span
+            >
+          </h2>
+        </div>
+      </div>
+
+      <div class="footer-wrapper">
+        <div class="footer border-top">
+          <div class="row">
+            <div class="col">
+              <a
+                href="https://github.com/janysantana"
+                target="_blank"
+                class="social-icon"
+                id="github"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="col">
+              <a
+                href="https://www.linkedin.com/in/janysantana/"
+                target="_blank"
+                class="social-icon"
+                id="linkedin"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div class="col">
+              <a
+                href="mailto:contact@janysantana.com"
+                class="social-icon"
+                id="email"
+              >
+                <i class="far fa-envelope-open"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-  <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script src="src/app.js"></script>
   </body>
 </html>
