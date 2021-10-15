@@ -28,7 +28,7 @@ h1 {
   color: var(--primary-color);
   font-size: 36px;
   letter-spacing: 0.1em;
-  padding: 25px 0 25px 0;
+  padding: 25px 5 25px 5;
 }
 
 h2 {
