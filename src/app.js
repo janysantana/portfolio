@@ -1,48 +1,33 @@
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("myBtn");
-var span = document.getElementsByClassName("close")[0];
+import React from "react";
+import { useForm } from "react-hook-form";
 
-btn.onclick = function () {
-  modal.style.display = "block";
-};
+export default function App() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => console.log(data);
+  console.log(errors);
 
-span.onclick = function () {
-  modal.style.display = "none";
-};
+  return (
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <input
+        type="text"
+        placeholder="name"
+        {...register("name", { required: true, maxLength: 80 })}
+      />
+      <input
+        type="text"
+        placeholder="email address"
+        {...register("email address", {
+          required: true,
+          pattern: /^\S+@\S+$/i,
+        })}
+      />
+      <textarea {...register("message", { required: true, maxLength: 400 })} />
 
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
-
-var slidePosition = 1;
-SlideShow(slidePosition);
-
-function plusSlides(n) {
-  SlideShow((slidePosition += n));
-}
-
-function currentSlide(n) {
-  SlideShow((slidePosition = n));
-}
-
-function SlideShow(n) {
-  var i;
-  var slides = document.getElementsByClassName("Containers");
-  var circles = document.getElementsByClassName("dots");
-  if (n > slides.length) {
-    slidePosition = 1;
-  }
-  if (n < 1) {
-    slidePosition = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < circles.length; i++) {
-    circles[i].className = circles[i].className.replace(" enable", "");
-  }
-  slides[slidePosition - 1].style.display = "block";
-  circles[slidePosition - 1].className += " enable";
+      <input type="submit" />
+    </form>
+  );
 }
