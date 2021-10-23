@@ -64,7 +64,8 @@
           </h1>
         </div>
 
-        <div class="content">
+        <div class="content-wrapper">
+          <!--
           <div class="container-fluid" id="contact">
             <form id="contact-form" method="post" action="">
               <input name="name" type="text" class="form-control" placeholder="your name" id="contact-name" required>
@@ -74,10 +75,45 @@
               <input type="submit" class="form-control submit" value="send message" id="contact-button">
             </form>
           </div>
-        </div>
-        
+          -->
 
-        
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name-input"
+                  placeholder="your name"
+                  required
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email-input"
+                  placeholder="your email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <input
+                type="message"
+                class="form-control"
+                id="message-input"
+                rows="4"
+                placeholder="what's up?"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-block" style="background-color: #41483c; color: white;">
+              submit
+            </button>
+          </form>
+        </div>
+      </div>
 
       <div class="footer-wrapper">
         <div class="footer border-white border-top">

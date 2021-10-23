@@ -5,7 +5,7 @@ font-family: 'Roboto Slab', serif;
 
 :root {
   --primary-color: #41483c;
-  --secondary-color: #130c0c;
+  --secondary-color: #501717;
 }
 
 body {
@@ -100,9 +100,18 @@ h2 {
   margin: auto;
 }
 
+.content-wrapper {
+  max-width: 375px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
 form {
-  margin-top: 50px;
+  margin-top: 30px;
   transition: all 1s ease-in-out;
+  width: 375px;
+ 
 }
 
 .form-control {
@@ -110,18 +119,22 @@ form {
   background: transparent;
   display: flex;
   margin: auto;
-  border: none;
-  border-bottom: 1px solid var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  font-family: "Open Sans", sans-serif !important;
 }
 
 input {
   color: var(--secondary-color);
-
 }
 
-#contact-name,
-#contact-email,
-#contact-message {
+
+button {
+  display: flex !important;
+  margin: auto !important;
   font-family: "Roboto Slab", serif !important;
+
+
+button:hover {
+  background-color: #41483c;
   
 }
