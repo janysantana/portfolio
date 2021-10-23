@@ -65,10 +65,11 @@
         </div>
 
         <div class="content-wrapper">
-          <form>
+          <form action="contact-form-handler.php">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input
+                  name="name"
                   type="text"
                   class="form-control"
                   id="name-input"
@@ -78,6 +79,7 @@
               </div>
               <div class="form-group col-md-6">
                 <input
+                  name="email"
                   type="email"
                   class="form-control"
                   id="email-input"
@@ -88,6 +90,7 @@
             </div>
             <div class="form-group">
               <textarea
+                name="message"
                 class="form-control"
                 id="message-input"
                 rows="4"

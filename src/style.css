@@ -84,7 +84,6 @@ h2 {
   bottom: 0;
   display: flex;
   justify-content: center;
-
 }
 
 .social-icon {
@@ -113,7 +112,6 @@ form {
   margin-top: 30px;
   transition: all 1s ease-in-out;
   width: 375px;
- 
 }
 
 .form-control {
@@ -129,25 +127,15 @@ input {
   color: var(--secondary-color);
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active  {
-    -webkit-box-shadow: 0 0 0 30px transparent !important;
-}
-
-
 .btn {
   display: flex !important;
   margin: auto !important;
   font-family: "Roboto Slab", serif !important;
 }
 
-.btn:hover
-  {
+.btn:hover {
   background-color: transparent !important;
   border: 2px solid var(--secondary-color) !important;
   color: var(--secondarycolor) !important;
   transition: all 500ms ease-in-out !important;
-  
 }
