@@ -5,7 +5,7 @@ $message = $_POST['message'];
 
 $email_from = 'contact@janysantana.com';
 
-$email_subject = "New Form Submission";
+$email_subject = "Thanks for contacting me!";
 
 $email_body = "User Name: $name.\n".
             "User Email: $visitor_email.\n".
@@ -17,7 +17,7 @@ $headers = "From: $email_from \r\n";
 
 $headers .= "Reply-To: $visitor_email \r\n";
 
-mail($to, $email_subject,$email_body, $headers);
+mail($to, $email_subject, $email_body, $headers);
 
-header("Location: index.html");
+header("Location: contact.html");
 ?>
