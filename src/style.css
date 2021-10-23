@@ -100,11 +100,28 @@ h2 {
   margin: auto;
 }
 
+form {
+  margin-top: 50px;
+  transition: all 1s ease-in-out;
+}
+
 .form-control {
   max-width: 375px;
   background: transparent;
   display: flex;
   margin: auto;
-  border: solid 1px var(--secondary-color);
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+input {
+  color: var(--secondary-color);
+
+}
+
+#contact-name,
+#contact-email,
+#contact-message {
+  font-family: "Roboto Slab", serif !important;
   
 }
