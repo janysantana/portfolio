@@ -78,11 +78,13 @@ h2 {
 }
 
 .footer {
-  height: 30px;
+  height: 60px;
   margin-top: 70px;
   padding-top: 10px;
+  bottom: 0;
   display: flex;
   justify-content: center;
+
 }
 
 .social-icon {
@@ -127,14 +129,25 @@ input {
   color: var(--secondary-color);
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px transparent !important;
+}
 
-button {
+
+.btn {
   display: flex !important;
   margin: auto !important;
   font-family: "Roboto Slab", serif !important;
+}
 
-
-button:hover {
-  background-color: #41483c;
+.btn:hover
+  {
+  background-color: transparent !important;
+  border: 2px solid var(--secondary-color) !important;
+  color: var(--secondarycolor) !important;
+  transition: all 500ms ease-in-out !important;
   
 }
