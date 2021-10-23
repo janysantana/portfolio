@@ -21,6 +21,10 @@ body {
   color: var(--secondary-color) !important;
 }
 
+.heading {
+ padding: 15px; 
+}
+
 h1 {
   color: var(--primary-color);
   font-size: 36px;
@@ -78,7 +82,7 @@ h2 {
 }
 
 .footer {
-  height: 60px;
+  height: 50px;
   margin-top: 70px;
   padding-top: 10px;
   bottom: 0;
