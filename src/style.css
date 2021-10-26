@@ -22,7 +22,8 @@ body {
 }
 
 .heading {
-  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 
 h1 {
@@ -83,8 +84,8 @@ h2 {
 
 .footer {
   height: 50px;
-  margin-top: 0;
-  padding-top: 0.8em;
+  margin-top: 0 !important;
+  padding-top: 0.8em !important;
   bottom: 0;
   display: flex;
   justify-content: center;
