@@ -61,7 +61,7 @@ h2 {
 .about {
   display: flex;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 10px;
   max-width: 375px;
   font-family: "Open Sans", sans-serif;
 }
@@ -83,8 +83,8 @@ h2 {
 
 .footer {
   height: 50px;
-  margin-top: 70px;
-  padding-top: 10px;
+  margin-top: 0;
+  padding-top: 0.8em;
   bottom: 0;
   display: flex;
   justify-content: center;
