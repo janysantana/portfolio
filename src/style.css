@@ -91,6 +91,10 @@ h2 {
   justify-content: center;
 }
 
+.footer-content {
+  padding-bottom: 5px;
+}
+
 .social-icon {
   font-size: 20px;
   color: var(--secondary-color);
