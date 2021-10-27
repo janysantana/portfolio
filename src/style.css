@@ -9,6 +9,7 @@ font-family: 'Roboto Slab', serif;
   --morning-blue: #7AA095;
   --space-crayola: #263D42;
   --off-white: #FAF9F6;
+  --pale-green: #92968d;
 }
 
 body {
@@ -129,7 +130,7 @@ color: var(--off-white) !important;
 
 .social-icon {
   font-size: 30px;
-  color: #92968d;
+  color: var(--pale-green);
   font-weight: light;
 }
 
@@ -256,9 +257,10 @@ input {
 }
 
 #weather-app-title {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 30px;
   font-size: 24px;
+  color: var(--pale-green);
 }
 
 #weather-app {
@@ -281,7 +283,7 @@ margin: 0 auto;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   padding-bottom: 0 !important;
-  color: black; 
+  color: var(--off-white); 
 }
 
 .project-source-code {
