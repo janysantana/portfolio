@@ -268,7 +268,8 @@ input {
 }
 .weather-app-wrapper {
 max-width: 700px;
-justify-content: space-evenly;
+display: block;
+margin: 0 auto;
 }
 
 
