@@ -6,19 +6,35 @@ font-family: 'Roboto Slab', serif;
 :root {
   --primary-color: #41483c;
   --secondary-color: #501717;
+  --morning-blue: #7AA095;
+  --space-crayola: #263D42;
+  --off-white: #FAF9F6;
 }
 
 body {
-  background-color: #ebdbcb;
+  background-color: #414a4c;
+}
+
+.face-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .portfolio-wrapper {
   margin: 100px 0 30px 0;
+  padding: 1em 0 1em 0;
+  border: 1px solid var(--morning-blue);
+}
+
+.navbar {
+  
 }
 
 .navbar-brand {
   font-family: "Roboto Slab", serif !important;
-  color: var(--secondary-color) !important;
+  color: var(--off-white) !important;
+  font-size: 25px;
 }
 
 .heading {
@@ -27,7 +43,7 @@ body {
 }
 
 h1 {
-  color: var(--primary-color);
+  color: var(--space-crayola);
   font-size: 36px;
   letter-spacing: 0.1em;
   padding: 0 5px 20px 5px;
@@ -37,19 +53,21 @@ h2 {
   padding-top: 15px;
   font-size: 18px;
   font-family: "Roboto Slab", serif;
-  font-weight: 300;
-  color: var(--primary-color);
+  font-weight: lighter;
+  color: var(--off-white);
   letter-spacing: 0.1em;
   text-align: center;
 }
 
 .name {
   font-weight: lighter;
-  color: var(--primary-color);
+  color: var(--off-white);
   font-family: "Roboto Slab", serif;
 }
 
 .subheading {
+  font-weight: 300;
+  color: var(--morning-blue);
   font-family: "Open Sans", sans-serif;
 }
 
@@ -57,6 +75,7 @@ h2 {
   display: flex;
   margin: auto;
   max-width: 250px;
+
 }
 
 .about {
@@ -64,16 +83,25 @@ h2 {
   margin: auto;
   padding-top: 10px;
   max-width: 375px;
+}
+
+#about-me {
   font-family: "Open Sans", sans-serif;
+  font-weight: 200;
 }
 
 .nav-link {
   font-family: "Open Sans", sans-serif;
+  color: var(--off-white) !important;
+}
+
+.navbar-toggler {
+color: var(--off-white) !important;
 }
 
 .bug-link {
-  color: var(--primary-color);
-  font-weight: 400;
+  color: var(--off-white);
+  font-weight: 300;
   text-decoration: underline;
 }
 
@@ -85,19 +113,23 @@ h2 {
 .footer {
   height: 50px;
   margin-top: 0 !important;
+  margin-bottom: 20px;
   padding-top: 0.8em !important;
+  
   bottom: 0;
   display: flex;
   justify-content: center;
+  border-top: white;
 }
 
 .footer-content {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .social-icon {
-  font-size: 20px;
-  color: var(--secondary-color);
+  font-size: 30px;
+  color: #92968d;
+  font-weight: light;
 }
 
 .social-icon:hover {
@@ -111,16 +143,33 @@ h2 {
 }
 
 .content-wrapper {
-  max-width: 375px;
+  max-width: 400px;
   display: flex;
   margin: auto;
   justify-content: center;
 }
 
-form {
+.contact-form {
   margin-top: 30px;
   transition: all 1s ease-in-out;
-  width: 375px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+
+.contact-input {
+font-family: "Open Sans", sans-serif;
+padding: 5px;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 0.5px solid var(--off-white);
+}
+
+placeholder {
+
+
 }
 
 .form-control {
@@ -129,24 +178,41 @@ form {
   display: flex;
   margin: auto;
   border: 1px solid var(--secondary-color);
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Open Sans", sans-serif;
+}
+
+textarea {
+  margin-bottom: 5px;
 }
 
 input {
+
   color: var(--secondary-color);
 }
 
-.btn {
-  display: flex !important;
-  margin: auto !important;
-  font-family: "Roboto Slab", serif !important;
+#message {
+  margin-bottom: 15px;
 }
 
-.btn:hover {
-  background-color: transparent !important;
-  border: 2px solid var(--secondary-color) !important;
-  color: var(--secondarycolor) !important;
-  transition: all 500ms ease-in-out !important;
+.submit-button {
+
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #bcafa2;
+  background;
+  opacity: 0.8;
+color: var(--off-white);
+border-radius: px;
+height: 30px;
+text-align: center !important;
+
+
+}
+
+.submit-button:hover {
+  background: var(--off-white);
+  opacity: 0.3;
+  transition: all 200ms ease-in-out !important;
+  color: var(--space-crayola);
 }
 
 .contact-wrapper {
@@ -189,4 +255,11 @@ input {
 #weather-app-description {
   padding-top: 15px;
   font-size: 16px;
+}
+
+input, textarea {
+  background: transparent;
+  display: block;
+  margin: auto;
+  width: 300px;
 }

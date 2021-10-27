@@ -33,11 +33,11 @@
     <div class="container">
       <nav
         class="navbar navbar-expand-lg navbar-light fixed-top"
-        style="background-color: #ebdbcb"
+      
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">js |</a>
-          <!--
+         
           <button
             class="navbar-toggler"
             type="button"
@@ -67,7 +67,13 @@
               >
             </div>
           </div>
-          -->
+        
+
+          
+
+
+
+
         </div>
       </nav>
       <div class="portfolio-wrapper">
@@ -78,65 +84,20 @@
           </h1>
         </div>
 
-        <div class="content-wrapper">
-          <div class="contact-wrapper">
-            <h3>
-              <a href="mailto:contact@janysantana.com" class="contact-link"
-                ><i class="far fa-envelope-open"></i> email me</a
-              >
-            </h3>
-          </div>
-          <!--
-          <form
-            id="contact-form"
-            role="form"
-            method="post"
-            action="contact-form-handler.php"
-          >
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input
-                  name="name"
-                  type="text"
-                  class="form-control"
-                  id="name-input"
-                  placeholder="your name"
-                  required
-                />
-              </div>
-              <div class="form-group col-md-6">
-                <input
-                  name="email"
-                  type="email"
-                  class="form-control"
-                  id="email-input"
-                  placeholder="your email"
-                  required
-                />
-              </div>
-            </div>
-            <div class="form-group">
-              <textarea
-                name="message"
-                class="form-control"
-                id="message-input"
-                rows="4"
-                required
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              class="btn btn-block"
-              style="background-color: #501717; color: white"
-            >
-              submit
-            </button>
+        <div class="contact-form">
+          <form action="mail.php" method="POST">
+                <input class="contact-input" type="text" name="name" placeholder="your name" required>
+                <input class="contact-input" type="text" name="email" placeholder="your email" required>
+                <textarea class="contact-input" id="message" name="message" rows="5" cols="25" placeholder="your message" required></textarea>
+            
+            <input class="submit-button" type="submit" value="send" style="text-align: center;">
           </form>
-        --></div>
+        </div>
+</div>
       </div>
 
       <div class="footer-wrapper">
-        <div class="footer fixed-bottom border-white border-top">
+        <div class="footer fixed-bottom">
           <div class="row">
             <div class="col">
               <a
