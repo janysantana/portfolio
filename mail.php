@@ -1,11 +1,15 @@
 <?php 
+
+if (isset($_POST['submit'])) {
 $name = $_POST['name'];
-$email = $_POST['email'];
+$mailFrom = $_POST['email'];
 $message = $_POST['message'];
-$formcontent="From: $name \n Message: $message";
-$recipient = "contact@janysantana.com";
-$subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
+
+$formcontent="From: ".$name.".\n\n".$message;
+$mailTo = "contact@janysantana.com";
+$header = "From: ".$mailFrom;
+
+mail($mailTo, $formcontent, $header);
+header("Location: index.php?mailsend");
+}
 ?>
