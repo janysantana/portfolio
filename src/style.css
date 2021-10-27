@@ -145,6 +145,7 @@ color: var(--off-white) !important;
   max-width: 330px;
   display: flex;
   margin: auto;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
 
 }
 
@@ -193,7 +194,7 @@ textarea {
 
 input {
 
-  color: var(--secondary-color);
+  color: var(--off-white);
 }
 
 #message {
