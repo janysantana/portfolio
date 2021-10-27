@@ -29,10 +29,6 @@ body {
   border: 1px solid var(--morning-blue);
 }
 
-.navbar {
-  
-}
-
 .navbar-brand {
   font-family: "Roboto Slab", serif !important;
   color: var(--off-white) !important;
@@ -173,11 +169,6 @@ border-top: 0;
 border-left: 0;
 border-right: 0;
 border-bottom: 0.5px solid var(--off-white);
-}
-
-placeholder {
-
-
 }
 
 .form-control {
