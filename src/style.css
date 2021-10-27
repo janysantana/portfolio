@@ -276,6 +276,7 @@ margin: 0 auto;
 
 #weather-app-description {
   padding-top: 15px;
+  text-align: center;
   max-width: 320px;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
