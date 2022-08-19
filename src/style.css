@@ -10,10 +10,14 @@ font-family: 'Roboto Slab', serif;
   --space-crayola: #263D42;
   --off-white: #FAF9F6;
   --pale-green: #92968d;
+  --background-color: #414a4c;
+  --magenta: #950740;
+  --brighter: #c3073f;
+  --maroon: #6f2232;
 }
 
 body {
-  background-color: #414a4c;
+  background-color: #1a1a1d;
 }
 
 .face-description {
@@ -40,7 +44,7 @@ body {
 }
 
 h1 {
-  color: var(--space-crayola);
+  color: var(--maroon);
   font-size: 36px;
   letter-spacing: 0.1em;
   padding: 0 5px 20px 5px;
@@ -125,7 +129,7 @@ color: var(--off-white) !important;
 
 .social-icon {
   font-size: 30px;
-  color: var(--pale-green);
+  color: var(--magenta);
   font-weight: light;
 }
 
