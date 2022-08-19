@@ -224,6 +224,10 @@ input {
   margin: auto;
 }
 
+.contact-form:input {
+  color: white;
+}
+
 .contact-link {
   text-decoration: none;
   font-weight: 400;
@@ -305,4 +309,5 @@ input, textarea {
   display: block;
   margin: auto;
   width: 300px;
+  color: white;
 }
