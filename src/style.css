@@ -26,7 +26,6 @@ body {
   display: block;
   margin: 100px 0 30px 0;
   padding: 1em 0 1em 0;
-  border: 1px solid var(--morning-blue);
 }
 
 .navbar-brand {
@@ -282,7 +281,7 @@ margin: 0 auto;
 }
 
 .project-source-code {
-  padding: 8px;
+  padding: 4px;
   display: flex;
   margin: auto;
   max-width: 120px;
@@ -312,4 +311,13 @@ input, textarea {
   color: white;
 }
 
-.footer-content
+.projects {
+  padding: 15px;
+}
+
+.cert-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  text-decoration: underline;
+}
