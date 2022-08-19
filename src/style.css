@@ -38,7 +38,7 @@ body {
   font-size: 25px;
 }
 
-.navbar .navbar-toggler:focus{
+.navbar-toggler:focus{
   color: var(--off-white);	
 }
 
